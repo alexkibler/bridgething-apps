@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-08-13T00:00:00Z",
+  "updated_at": "2026-08-13T15:57:54Z",
   "repo": {
     "name": "alexkibler's apps",
     "description": "Personal bridgething webapp catalog",
@@ -19,6 +19,20 @@
       "source": "https://github.com/alexkibler/grounddark",
       "versions": [
         {
+          "version": "0.2.0",
+          "released_at": "2026-08-13T15:57:54Z",
+          "download": {
+            "url": "https://alexkibler.github.io/bridgething-apps/apps/grounddark/0.2.0/bundle.zip",
+            "size": 149280,
+            "sha256": "164fd59b4a512c8f94b4113769e007e3780ce02ba03aca13c5e61ba7cf14aa7f"
+          },
+          "permissions": [
+            "net.fetch"
+          ],
+          "min_libbridgething_version": "0.9.0",
+          "changelog": null
+        },
+        {
           "version": "0.1.0",
           "released_at": "2026-08-13T00:00:00Z",
           "download": {
@@ -26,9 +40,11 @@
             "size": 149438,
             "sha256": "419f764eef4520568bdb907c899af5fd639921c239f62cebd5f421d26ccd4640"
           },
-          "permissions": ["net.fetch"],
+          "permissions": [
+            "net.fetch"
+          ],
           "min_libbridgething_version": "0.9.0",
-          "changelog": "Initial release — now playing, family calendar, and weather."
+          "changelog": "Initial release \u2014 now playing, family calendar, and weather."
         }
       ]
     }

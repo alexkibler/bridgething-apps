@@ -30,7 +30,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.9.0",
-          "changelog": null
+          "changelog": "Fix: declare net.fetch permission and settings page in bundle manifest so the daemon actually grants network access and the companion shows the settings UI. Reinstall required."
         },
         {
           "version": "0.4.0",
@@ -44,7 +44,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.9.0",
-          "changelog": null
+          "changelog": "Debug: show full error details on the agenda panel when grounddark can't be reached."
         },
         {
           "version": "0.3.0",
@@ -58,7 +58,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.9.0",
-          "changelog": null
+          "changelog": "Fix: switch all HTTP calls to client.net.fetch (CarThing has no native network). Fix: settings page now included at the correct path in the bundle. Fix: pause button icon."
         },
         {
           "version": "0.2.0",
@@ -72,7 +72,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.9.0",
-          "changelog": null
+          "changelog": "Fix: correct app UUID to UUIDv7 (required by bridgething catalog validator)."
         },
         {
           "version": "0.1.0",
@@ -86,7 +86,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.9.0",
-          "changelog": "Initial release \u2014 now playing, family calendar, and weather."
+          "changelog": "Initial release — now playing, family calendar, and weather."
         }
       ]
     }

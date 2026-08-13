@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-08-13T23:29:33Z",
+  "updated_at": "2026-08-13T23:41:36Z",
   "repo": {
     "name": "alexkibler's apps",
     "description": "Personal bridgething webapp catalog",
@@ -18,6 +18,20 @@
       "homepage": "https://github.com/alexkibler/grounddark",
       "source": "https://github.com/alexkibler/grounddark",
       "versions": [
+        {
+          "version": "0.17.0",
+          "released_at": "2026-08-13T23:41:36Z",
+          "download": {
+            "url": "https://alexkibler.github.io/bridgething-apps/apps/grounddark/0.17.0/bundle.zip",
+            "size": 153572,
+            "sha256": "5c9b02fd8f34ac8c6f85d7ed8950f8c383053b211706212a1ccd08e29d49a9a9"
+          },
+          "permissions": [
+            "net.fetch"
+          ],
+          "min_libbridgething_version": "0.9.0",
+          "changelog": null
+        },
         {
           "version": "0.16.0",
           "released_at": "2026-08-13T23:29:33Z",

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
+  "schema": "catalog.v1",
+  "updated_at": "2026-08-13T00:00:00Z",
+  "repo": {
+    "name": "alexkibler's apps",
+    "description": "Personal bridgething webapp catalog",
+    "homepage": "https://github.com/alexkibler/bridgething-apps",
+    "icon": null
+  },
+  "apps": [
+    {
+      "id": "f3168669-62f8-45dd-84ca-5445a3878737",
+      "name": "grounddark",
+      "description": "Family calendar, weather, and Spotify controls for the Car Thing",
+      "author": "alexkibler",
+      "icon": null,
+      "homepage": "https://github.com/alexkibler/grounddark",
+      "source": "https://github.com/alexkibler/grounddark",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released_at": "2026-08-13T00:00:00Z",
+          "download": {
+            "url": "https://alexkibler.github.io/bridgething-apps/apps/grounddark/0.1.0/bundle.zip",
+            "size": 149438,
+            "sha256": "419f764eef4520568bdb907c899af5fd639921c239f62cebd5f421d26ccd4640"
+          },
+          "permissions": ["net.fetch"],
+          "min_libbridgething_version": "0.9.0",
+          "changelog": "Initial release — now playing, family calendar, and weather."
+        }
+      ]
+    }
+  ],
+  "recommended_sources": []
+}
